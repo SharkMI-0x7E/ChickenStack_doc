@@ -1,79 +1,79 @@
-import { defineConfig } from 'vitepress'
+ï»¿import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/ChickenStack_doc/',
   ignoreDeadLinks: true,
   title: 'ChickenStack',
-  description: '»ùÓÚÕ»µÄÍ¼ÁéÍê±¸±à³ÌÓïÑÔ',
+  description: 'ï¿½ï¿½ï¿½ï¿½Õ»ï¿½ï¿½Í¼ï¿½ï¿½ï¿½ê±¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
   
   themeConfig: {
     nav: [
-      { text: 'Ê×Ò³', link: '/' },
-      { text: '¿ìËÙ¿ªÊ¼', link: '/guide/navigation' },
-      { text: '¹ØÓÚ', link: '/about/' },
-      { text: 'Ðí¿ÉÖ¤', link: '/license/' }
+      { text: 'ï¿½ï¿½Ò³', link: '/' },
+      { text: 'ï¿½ï¿½ï¿½Ù¿ï¿½Ê¼', link: '/guide/navigation' },
+      { text: 'ï¿½ï¿½ï¿½ï¿½', link: '/about/' },
+      { text: 'ï¿½ï¿½ï¿½Ö¤', link: '/license/' }
     ],
 
     sidebar: {
       '/guide/': [
         {
-          text: '¿ìËÙ¿ªÊ¼',
+          text: 'ï¿½ï¿½ï¿½Ù¿ï¿½Ê¼',
           collapsed: false,
           items: [
-            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
-            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: '°²×°', link: '/guide/installation' }
+            { text: 'Ò³ï¿½æµ¼ï¿½ï¿½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ï¿½ï¿½ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: 'ï¿½ï¿½×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'Ê¹ÓÃÖ¸ÄÏ',
+          text: 'Ê¹ï¿½ï¿½Ö¸ï¿½ï¿½',
           collapsed: true,
           items: [
-            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
-            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
-            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
-            { text: 'Óï·¨', link: '/guide/syntax' }
+            { text: 'ï¿½ï¿½ï¿½Ð·ï¿½Ê½', link: '/guide/running' },
+            { text: 'Ö¸ï¿½î¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/guide/stack-operations' },
+            { text: 'ï¿½ï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API ÎÄµµ',
+          text: 'API ï¿½Äµï¿½',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
-            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/vm-api' },
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'Ê¾Àý',
+          text: 'Ê¾ï¿½ï¿½',
           collapsed: false,
           items: [
             {
-              text: '»ù´¡Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
-                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
+                { text: 'ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½', link: '/examples/math' },
+                { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/examples/stack' }
               ]
             },
             {
-              text: '½ø½×Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: 'Ñ­»·', link: '/examples/loops' },
-                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
-                { text: '½×³Ë', link: '/examples/factorial' },
-                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
-                { text: 'ÇóºÍ', link: '/examples/sum' },
-                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
+                { text: 'Ñ­ï¿½ï¿½', link: '/examples/loops' },
+                { text: 'ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/fibonacci' },
+                { text: 'ï¿½×³ï¿½', link: '/examples/factorial' },
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½×ª', link: '/examples/reverse-string' },
+                { text: 'ï¿½ï¿½ï¿½', link: '/examples/sum' },
+                { text: 'ï¿½Ë·ï¿½ï¿½ï¿½', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'ÆäËûÊ¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -82,73 +82,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/qa/' }
           ]
         },
         {
-          text: '¸üÐÂÈÕÖ¾',
+          text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾',
           link: '/changelog/'
         }
       ],
       '/examples/': [
         {
-          text: '¿ìËÙ¿ªÊ¼',
+          text: 'ï¿½ï¿½ï¿½Ù¿ï¿½Ê¼',
           collapsed: false,
           items: [
-            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
-            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: '°²×°', link: '/guide/installation' }
+            { text: 'Ò³ï¿½æµ¼ï¿½ï¿½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ï¿½ï¿½ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: 'ï¿½ï¿½×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'Ê¹ÓÃÖ¸ÄÏ',
+          text: 'Ê¹ï¿½ï¿½Ö¸ï¿½ï¿½',
           collapsed: true,
           items: [
-            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
-            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
-            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
-            { text: 'Óï·¨', link: '/guide/syntax' }
+            { text: 'ï¿½ï¿½ï¿½Ð·ï¿½Ê½', link: '/guide/running' },
+            { text: 'Ö¸ï¿½î¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/guide/stack-operations' },
+            { text: 'ï¿½ï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API ÎÄµµ',
+          text: 'API ï¿½Äµï¿½',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
-            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/vm-api' },
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'Ê¾Àý',
+          text: 'Ê¾ï¿½ï¿½',
           collapsed: false,
           items: [
             {
-              text: '»ù´¡Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
-                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
+                { text: 'ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½', link: '/examples/math' },
+                { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/examples/stack' }
               ]
             },
             {
-              text: '½ø½×Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: 'Ñ­»·', link: '/examples/loops' },
-                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
-                { text: '½×³Ë', link: '/examples/factorial' },
-                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
-                { text: 'ÇóºÍ', link: '/examples/sum' },
-                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
+                { text: 'Ñ­ï¿½ï¿½', link: '/examples/loops' },
+                { text: 'ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/fibonacci' },
+                { text: 'ï¿½×³ï¿½', link: '/examples/factorial' },
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½×ª', link: '/examples/reverse-string' },
+                { text: 'ï¿½ï¿½ï¿½', link: '/examples/sum' },
+                { text: 'ï¿½Ë·ï¿½ï¿½ï¿½', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'ÆäËûÊ¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -157,73 +157,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/qa/' }
           ]
         },
         {
-          text: '¸üÐÂÈÕÖ¾',
+          text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾',
           link: '/changelog/'
         }
       ],
       '/changelog/': [
         {
-          text: '¿ìËÙ¿ªÊ¼',
+          text: 'ï¿½ï¿½ï¿½Ù¿ï¿½Ê¼',
           collapsed: false,
           items: [
-            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
-            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: '°²×°', link: '/guide/installation' }
+            { text: 'Ò³ï¿½æµ¼ï¿½ï¿½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ï¿½ï¿½ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: 'ï¿½ï¿½×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'Ê¹ÓÃÖ¸ÄÏ',
+          text: 'Ê¹ï¿½ï¿½Ö¸ï¿½ï¿½',
           collapsed: true,
           items: [
-            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
-            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
-            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
-            { text: 'Óï·¨', link: '/guide/syntax' }
+            { text: 'ï¿½ï¿½ï¿½Ð·ï¿½Ê½', link: '/guide/running' },
+            { text: 'Ö¸ï¿½î¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/guide/stack-operations' },
+            { text: 'ï¿½ï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API ÎÄµµ',
+          text: 'API ï¿½Äµï¿½',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
-            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/vm-api' },
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'Ê¾Àý',
+          text: 'Ê¾ï¿½ï¿½',
           collapsed: false,
           items: [
             {
-              text: '»ù´¡Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
-                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
+                { text: 'ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½', link: '/examples/math' },
+                { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/examples/stack' }
               ]
             },
             {
-              text: '½ø½×Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: 'Ñ­»·', link: '/examples/loops' },
-                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
-                { text: '½×³Ë', link: '/examples/factorial' },
-                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
-                { text: 'ÇóºÍ', link: '/examples/sum' },
-                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
+                { text: 'Ñ­ï¿½ï¿½', link: '/examples/loops' },
+                { text: 'ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/fibonacci' },
+                { text: 'ï¿½×³ï¿½', link: '/examples/factorial' },
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½×ª', link: '/examples/reverse-string' },
+                { text: 'ï¿½ï¿½ï¿½', link: '/examples/sum' },
+                { text: 'ï¿½Ë·ï¿½ï¿½ï¿½', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'ÆäËûÊ¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -232,73 +232,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/qa/' }
           ]
         },
         {
-          text: '¸üÐÂÈÕÖ¾',
+          text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾',
           link: '/changelog/'
         }
       ],
       '/license/': [
         {
-          text: '¿ìËÙ¿ªÊ¼',
+          text: 'ï¿½ï¿½ï¿½Ù¿ï¿½Ê¼',
           collapsed: false,
           items: [
-            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
-            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: '°²×°', link: '/guide/installation' }
+            { text: 'Ò³ï¿½æµ¼ï¿½ï¿½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ï¿½ï¿½ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: 'ï¿½ï¿½×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'Ê¹ÓÃÖ¸ÄÏ',
+          text: 'Ê¹ï¿½ï¿½Ö¸ï¿½ï¿½',
           collapsed: true,
           items: [
-            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
-            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
-            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
-            { text: 'Óï·¨', link: '/guide/syntax' }
+            { text: 'ï¿½ï¿½ï¿½Ð·ï¿½Ê½', link: '/guide/running' },
+            { text: 'Ö¸ï¿½î¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/guide/stack-operations' },
+            { text: 'ï¿½ï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API ÎÄµµ',
+          text: 'API ï¿½Äµï¿½',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
-            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/vm-api' },
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'Ê¾Àý',
+          text: 'Ê¾ï¿½ï¿½',
           collapsed: false,
           items: [
             {
-              text: '»ù´¡Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
-                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
+                { text: 'ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½', link: '/examples/math' },
+                { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/examples/stack' }
               ]
             },
             {
-              text: '½ø½×Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: 'Ñ­»·', link: '/examples/loops' },
-                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
-                { text: '½×³Ë', link: '/examples/factorial' },
-                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
-                { text: 'ÇóºÍ', link: '/examples/sum' },
-                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
+                { text: 'Ñ­ï¿½ï¿½', link: '/examples/loops' },
+                { text: 'ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/fibonacci' },
+                { text: 'ï¿½×³ï¿½', link: '/examples/factorial' },
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½×ª', link: '/examples/reverse-string' },
+                { text: 'ï¿½ï¿½ï¿½', link: '/examples/sum' },
+                { text: 'ï¿½Ë·ï¿½ï¿½ï¿½', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'ÆäËûÊ¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -307,73 +307,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/qa/' }
           ]
         },
         {
-          text: '¸üÐÂÈÕÖ¾',
+          text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾',
           link: '/changelog/'
         }
       ],
       '/qa/': [
         {
-          text: '¿ìËÙ¿ªÊ¼',
+          text: 'ï¿½ï¿½ï¿½Ù¿ï¿½Ê¼',
           collapsed: false,
           items: [
-            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
-            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: '°²×°', link: '/guide/installation' }
+            { text: 'Ò³ï¿½æµ¼ï¿½ï¿½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ï¿½ï¿½ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: 'ï¿½ï¿½×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'Ê¹ÓÃÖ¸ÄÏ',
+          text: 'Ê¹ï¿½ï¿½Ö¸ï¿½ï¿½',
           collapsed: true,
           items: [
-            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
-            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
-            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
-            { text: 'Óï·¨', link: '/guide/syntax' }
+            { text: 'ï¿½ï¿½ï¿½Ð·ï¿½Ê½', link: '/guide/running' },
+            { text: 'Ö¸ï¿½î¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/guide/stack-operations' },
+            { text: 'ï¿½ï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API ÎÄµµ',
+          text: 'API ï¿½Äµï¿½',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
-            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/vm-api' },
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'Ê¾Àý',
+          text: 'Ê¾ï¿½ï¿½',
           collapsed: false,
           items: [
             {
-              text: '»ù´¡Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
-                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
+                { text: 'ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½', link: '/examples/math' },
+                { text: 'Õ»ï¿½ï¿½ï¿½ï¿½', link: '/examples/stack' }
               ]
             },
             {
-              text: '½ø½×Ê¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: 'Ñ­»·', link: '/examples/loops' },
-                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
-                { text: '½×³Ë', link: '/examples/factorial' },
-                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
-                { text: 'ÇóºÍ', link: '/examples/sum' },
-                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
+                { text: 'Ñ­ï¿½ï¿½', link: '/examples/loops' },
+                { text: 'ì³²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/fibonacci' },
+                { text: 'ï¿½×³ï¿½', link: '/examples/factorial' },
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½×ª', link: '/examples/reverse-string' },
+                { text: 'ï¿½ï¿½ï¿½', link: '/examples/sum' },
+                { text: 'ï¿½Ë·ï¿½ï¿½ï¿½', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'ÆäËûÊ¾Àý',
+              text: 'ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½',
               collapsed: false,
               items: [
-                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
+                { text: 'ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -382,11 +382,11 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: false,
           items: [
-            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
+            { text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½', link: '/qa/' }
           ]
         },
         {
-          text: '¸üÐÂÈÕÖ¾',
+          text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾',
           link: '/changelog/'
         }
       ]
@@ -394,20 +394,20 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
-      text: 'ÔÚ GitHub ÉÏ±à¼­´ËÒ³Ãæ'
+      text: 'ï¿½ï¿½ GitHub ï¿½Ï±à¼­ï¿½ï¿½Ò³ï¿½ï¿½'
     },
 
     docFooter: {
-      prev: 'ÉÏÒ»Ò³',
-      next: 'ÏÂÒ»Ò³'
+      prev: 'ï¿½ï¿½Ò»Ò³',
+      next: 'ï¿½ï¿½Ò»Ò³'
     },
 
     outline: {
-      label: 'Ò³Ãæµ¼º½'
+      label: 'Ò³ï¿½æµ¼ï¿½ï¿½'
     },
 
     lastUpdated: {
-      text: '×îºó¸üÐÂÓÚ',
+      text: 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½',
       formatOptions: {
         dateStyle: 'short',
         timeStyle: 'medium'
@@ -424,9 +424,10 @@ export default defineConfig({
     },
     editLink: {
       pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
-      text: 'ÔÚ GitHub ÉÏ±à¼­´ËÒ³Ãæ'
+      text: 'ï¿½ï¿½ GitHub ï¿½Ï±à¼­ï¿½ï¿½Ò³ï¿½ï¿½'
     }
   }
 })
+
 
 
