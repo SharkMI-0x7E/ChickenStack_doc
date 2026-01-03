@@ -2,78 +2,78 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/ChickenStack_doc/',
-  title: 'ChickenStack',
-  description: 'åŸºäºŽæ ˆçš„å›¾çµå®Œå¤‡ç¼–ç¨‹è¯­è¨€',
   ignoreDeadLinks: true,
+  title: 'ChickenStack',
+  description: '»ùÓÚÕ»µÄÍ¼ÁéÍê±¸±à³ÌÓïÑÔ',
   
   themeConfig: {
     nav: [
-      { text: 'é¦–é¡µ', link: '/' },
-      { text: 'å¿«é€Ÿå¼€å§?, link: '/guide/navigation' },
-      { text: 'å…³äºŽ', link: '/about/' },
-      { text: 'è®¸å¯è¯?, link: '/license/' }
+      { text: 'Ê×Ò³', link: '/' },
+      { text: '¿ìËÙ¿ªÊ¼', link: '/guide/navigation' },
+      { text: '¹ØÓÚ', link: '/about/' },
+      { text: 'Ðí¿ÉÖ¤', link: '/license/' }
     ],
 
     sidebar: {
       '/guide/': [
         {
-          text: 'å¿«é€Ÿå¼€å§?,
+          text: '¿ìËÙ¿ªÊ¼',
           collapsed: false,
           items: [
-            { text: 'é¡µé¢å¯¼èˆª', link: '/guide/navigation' },
-            { text: 'ä»€ä¹ˆæ˜¯ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: 'å®‰è£…', link: '/guide/installation' }
+            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: '°²×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'ä½¿ç”¨æŒ‡å—',
+          text: 'Ê¹ÓÃÖ¸ÄÏ',
           collapsed: true,
           items: [
-            { text: 'è¿è¡Œæ–¹å¼', link: '/guide/running' },
-            { text: 'æŒ‡ä»¤é›?, link: '/guide/instruction-set' },
-            { text: 'æ ˆæ“ä½?, link: '/guide/stack-operations' },
-            { text: 'è¯­æ³•', link: '/guide/syntax' }
+            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
+            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
+            { text: 'Óï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API æ–‡æ¡£',
+          text: 'API ÎÄµµ',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'è™šæ‹Ÿæœ?API', link: '/guide/vm-api' },
-            { text: 'è§£æžå™?API', link: '/guide/parser-api' }
+            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
+            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'ç¤ºä¾‹',
+          text: 'Ê¾Àý',
           collapsed: false,
           items: [
             {
-              text: 'åŸºç¡€ç¤ºä¾‹',
+              text: '»ù´¡Ê¾Àý',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'æ•°å­¦è¿ç®—', link: '/examples/math' },
-                { text: 'æ ˆæ“ä½?, link: '/examples/stack' }
+                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
+                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
               ]
             },
             {
-              text: 'è¿›é˜¶ç¤ºä¾‹',
+              text: '½ø½×Ê¾Àý',
               collapsed: false,
               items: [
-                { text: 'å¾ªçŽ¯', link: '/examples/loops' },
-                { text: 'æ–æ³¢é‚£å¥‘æ•°åˆ—', link: '/examples/fibonacci' },
-                { text: 'é˜¶ä¹˜', link: '/examples/factorial' },
-                { text: 'å­—ç¬¦ä¸²åè½?, link: '/examples/reverse-string' },
-                { text: 'æ±‚å’Œ', link: '/examples/sum' },
-                { text: 'ä¹˜æ³•è¡?, link: '/examples/multiplication-table' }
+                { text: 'Ñ­»·', link: '/examples/loops' },
+                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
+                { text: '½×³Ë', link: '/examples/factorial' },
+                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
+                { text: 'ÇóºÍ', link: '/examples/sum' },
+                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'å…¶ä»–ç¤ºä¾‹',
+              text: 'ÆäËûÊ¾Àý',
               collapsed: false,
               items: [
-                { text: 'å­—ç¬¦æ“ä½œ', link: '/examples/char-operations' }
+                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -82,73 +82,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: 'å¸¸è§é—®é¢˜', link: '/qa/' }
+            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
           ]
         },
         {
-          text: 'æ›´æ–°æ—¥å¿—',
+          text: '¸üÐÂÈÕÖ¾',
           link: '/changelog/'
         }
       ],
       '/examples/': [
         {
-          text: 'å¿«é€Ÿå¼€å§?,
+          text: '¿ìËÙ¿ªÊ¼',
           collapsed: false,
           items: [
-            { text: 'é¡µé¢å¯¼èˆª', link: '/guide/navigation' },
-            { text: 'ä»€ä¹ˆæ˜¯ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: 'å®‰è£…', link: '/guide/installation' }
+            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: '°²×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'ä½¿ç”¨æŒ‡å—',
+          text: 'Ê¹ÓÃÖ¸ÄÏ',
           collapsed: true,
           items: [
-            { text: 'è¿è¡Œæ–¹å¼', link: '/guide/running' },
-            { text: 'æŒ‡ä»¤é›?, link: '/guide/instruction-set' },
-            { text: 'æ ˆæ“ä½?, link: '/guide/stack-operations' },
-            { text: 'è¯­æ³•', link: '/guide/syntax' }
+            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
+            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
+            { text: 'Óï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API æ–‡æ¡£',
+          text: 'API ÎÄµµ',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'è™šæ‹Ÿæœ?API', link: '/guide/vm-api' },
-            { text: 'è§£æžå™?API', link: '/guide/parser-api' }
+            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
+            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'ç¤ºä¾‹',
+          text: 'Ê¾Àý',
           collapsed: false,
           items: [
             {
-              text: 'åŸºç¡€ç¤ºä¾‹',
+              text: '»ù´¡Ê¾Àý',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'æ•°å­¦è¿ç®—', link: '/examples/math' },
-                { text: 'æ ˆæ“ä½?, link: '/examples/stack' }
+                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
+                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
               ]
             },
             {
-              text: 'è¿›é˜¶ç¤ºä¾‹',
+              text: '½ø½×Ê¾Àý',
               collapsed: false,
               items: [
-                { text: 'å¾ªçŽ¯', link: '/examples/loops' },
-                { text: 'æ–æ³¢é‚£å¥‘æ•°åˆ—', link: '/examples/fibonacci' },
-                { text: 'é˜¶ä¹˜', link: '/examples/factorial' },
-                { text: 'å­—ç¬¦ä¸²åè½?, link: '/examples/reverse-string' },
-                { text: 'æ±‚å’Œ', link: '/examples/sum' },
-                { text: 'ä¹˜æ³•è¡?, link: '/examples/multiplication-table' }
+                { text: 'Ñ­»·', link: '/examples/loops' },
+                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
+                { text: '½×³Ë', link: '/examples/factorial' },
+                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
+                { text: 'ÇóºÍ', link: '/examples/sum' },
+                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'å…¶ä»–ç¤ºä¾‹',
+              text: 'ÆäËûÊ¾Àý',
               collapsed: false,
               items: [
-                { text: 'å­—ç¬¦æ“ä½œ', link: '/examples/char-operations' }
+                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -157,73 +157,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: 'å¸¸è§é—®é¢˜', link: '/qa/' }
+            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
           ]
         },
         {
-          text: 'æ›´æ–°æ—¥å¿—',
+          text: '¸üÐÂÈÕÖ¾',
           link: '/changelog/'
         }
       ],
       '/changelog/': [
         {
-          text: 'å¿«é€Ÿå¼€å§?,
+          text: '¿ìËÙ¿ªÊ¼',
           collapsed: false,
           items: [
-            { text: 'é¡µé¢å¯¼èˆª', link: '/guide/navigation' },
-            { text: 'ä»€ä¹ˆæ˜¯ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: 'å®‰è£…', link: '/guide/installation' }
+            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: '°²×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'ä½¿ç”¨æŒ‡å—',
+          text: 'Ê¹ÓÃÖ¸ÄÏ',
           collapsed: true,
           items: [
-            { text: 'è¿è¡Œæ–¹å¼', link: '/guide/running' },
-            { text: 'æŒ‡ä»¤é›?, link: '/guide/instruction-set' },
-            { text: 'æ ˆæ“ä½?, link: '/guide/stack-operations' },
-            { text: 'è¯­æ³•', link: '/guide/syntax' }
+            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
+            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
+            { text: 'Óï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API æ–‡æ¡£',
+          text: 'API ÎÄµµ',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'è™šæ‹Ÿæœ?API', link: '/guide/vm-api' },
-            { text: 'è§£æžå™?API', link: '/guide/parser-api' }
+            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
+            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'ç¤ºä¾‹',
+          text: 'Ê¾Àý',
           collapsed: false,
           items: [
             {
-              text: 'åŸºç¡€ç¤ºä¾‹',
+              text: '»ù´¡Ê¾Àý',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'æ•°å­¦è¿ç®—', link: '/examples/math' },
-                { text: 'æ ˆæ“ä½?, link: '/examples/stack' }
+                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
+                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
               ]
             },
             {
-              text: 'è¿›é˜¶ç¤ºä¾‹',
+              text: '½ø½×Ê¾Àý',
               collapsed: false,
               items: [
-                { text: 'å¾ªçŽ¯', link: '/examples/loops' },
-                { text: 'æ–æ³¢é‚£å¥‘æ•°åˆ—', link: '/examples/fibonacci' },
-                { text: 'é˜¶ä¹˜', link: '/examples/factorial' },
-                { text: 'å­—ç¬¦ä¸²åè½?, link: '/examples/reverse-string' },
-                { text: 'æ±‚å’Œ', link: '/examples/sum' },
-                { text: 'ä¹˜æ³•è¡?, link: '/examples/multiplication-table' }
+                { text: 'Ñ­»·', link: '/examples/loops' },
+                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
+                { text: '½×³Ë', link: '/examples/factorial' },
+                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
+                { text: 'ÇóºÍ', link: '/examples/sum' },
+                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'å…¶ä»–ç¤ºä¾‹',
+              text: 'ÆäËûÊ¾Àý',
               collapsed: false,
               items: [
-                { text: 'å­—ç¬¦æ“ä½œ', link: '/examples/char-operations' }
+                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -232,73 +232,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: 'å¸¸è§é—®é¢˜', link: '/qa/' }
+            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
           ]
         },
         {
-          text: 'æ›´æ–°æ—¥å¿—',
+          text: '¸üÐÂÈÕÖ¾',
           link: '/changelog/'
         }
       ],
       '/license/': [
         {
-          text: 'å¿«é€Ÿå¼€å§?,
+          text: '¿ìËÙ¿ªÊ¼',
           collapsed: false,
           items: [
-            { text: 'é¡µé¢å¯¼èˆª', link: '/guide/navigation' },
-            { text: 'ä»€ä¹ˆæ˜¯ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: 'å®‰è£…', link: '/guide/installation' }
+            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: '°²×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'ä½¿ç”¨æŒ‡å—',
+          text: 'Ê¹ÓÃÖ¸ÄÏ',
           collapsed: true,
           items: [
-            { text: 'è¿è¡Œæ–¹å¼', link: '/guide/running' },
-            { text: 'æŒ‡ä»¤é›?, link: '/guide/instruction-set' },
-            { text: 'æ ˆæ“ä½?, link: '/guide/stack-operations' },
-            { text: 'è¯­æ³•', link: '/guide/syntax' }
+            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
+            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
+            { text: 'Óï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API æ–‡æ¡£',
+          text: 'API ÎÄµµ',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'è™šæ‹Ÿæœ?API', link: '/guide/vm-api' },
-            { text: 'è§£æžå™?API', link: '/guide/parser-api' }
+            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
+            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'ç¤ºä¾‹',
+          text: 'Ê¾Àý',
           collapsed: false,
           items: [
             {
-              text: 'åŸºç¡€ç¤ºä¾‹',
+              text: '»ù´¡Ê¾Àý',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'æ•°å­¦è¿ç®—', link: '/examples/math' },
-                { text: 'æ ˆæ“ä½?, link: '/examples/stack' }
+                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
+                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
               ]
             },
             {
-              text: 'è¿›é˜¶ç¤ºä¾‹',
+              text: '½ø½×Ê¾Àý',
               collapsed: false,
               items: [
-                { text: 'å¾ªçŽ¯', link: '/examples/loops' },
-                { text: 'æ–æ³¢é‚£å¥‘æ•°åˆ—', link: '/examples/fibonacci' },
-                { text: 'é˜¶ä¹˜', link: '/examples/factorial' },
-                { text: 'å­—ç¬¦ä¸²åè½?, link: '/examples/reverse-string' },
-                { text: 'æ±‚å’Œ', link: '/examples/sum' },
-                { text: 'ä¹˜æ³•è¡?, link: '/examples/multiplication-table' }
+                { text: 'Ñ­»·', link: '/examples/loops' },
+                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
+                { text: '½×³Ë', link: '/examples/factorial' },
+                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
+                { text: 'ÇóºÍ', link: '/examples/sum' },
+                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'å…¶ä»–ç¤ºä¾‹',
+              text: 'ÆäËûÊ¾Àý',
               collapsed: false,
               items: [
-                { text: 'å­—ç¬¦æ“ä½œ', link: '/examples/char-operations' }
+                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -307,73 +307,73 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: true,
           items: [
-            { text: 'å¸¸è§é—®é¢˜', link: '/qa/' }
+            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
           ]
         },
         {
-          text: 'æ›´æ–°æ—¥å¿—',
+          text: '¸üÐÂÈÕÖ¾',
           link: '/changelog/'
         }
       ],
       '/qa/': [
         {
-          text: 'å¿«é€Ÿå¼€å§?,
+          text: '¿ìËÙ¿ªÊ¼',
           collapsed: false,
           items: [
-            { text: 'é¡µé¢å¯¼èˆª', link: '/guide/navigation' },
-            { text: 'ä»€ä¹ˆæ˜¯ ChickenStack', link: '/guide/what-is-chickenstack' },
-            { text: 'å®‰è£…', link: '/guide/installation' }
+            { text: 'Ò³Ãæµ¼º½', link: '/guide/navigation' },
+            { text: 'Ê²Ã´ÊÇ ChickenStack', link: '/guide/what-is-chickenstack' },
+            { text: '°²×°', link: '/guide/installation' }
           ]
         },
         {
-          text: 'ä½¿ç”¨æŒ‡å—',
+          text: 'Ê¹ÓÃÖ¸ÄÏ',
           collapsed: true,
           items: [
-            { text: 'è¿è¡Œæ–¹å¼', link: '/guide/running' },
-            { text: 'æŒ‡ä»¤é›?, link: '/guide/instruction-set' },
-            { text: 'æ ˆæ“ä½?, link: '/guide/stack-operations' },
-            { text: 'è¯­æ³•', link: '/guide/syntax' }
+            { text: 'ÔËÐÐ·½Ê½', link: '/guide/running' },
+            { text: 'Ö¸Áî¼¯', link: '/guide/instruction-set' },
+            { text: 'Õ»²Ù×÷', link: '/guide/stack-operations' },
+            { text: 'Óï·¨', link: '/guide/syntax' }
           ]
         },
         {
-          text: 'API æ–‡æ¡£',
+          text: 'API ÎÄµµ',
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: 'è™šæ‹Ÿæœ?API', link: '/guide/vm-api' },
-            { text: 'è§£æžå™?API', link: '/guide/parser-api' }
+            { text: 'ÐéÄâ»ú API', link: '/guide/vm-api' },
+            { text: '½âÎöÆ÷ API', link: '/guide/parser-api' }
           ]
         },
         {
-          text: 'ç¤ºä¾‹',
+          text: 'Ê¾Àý',
           collapsed: false,
           items: [
             {
-              text: 'åŸºç¡€ç¤ºä¾‹',
+              text: '»ù´¡Ê¾Àý',
               collapsed: false,
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
-                { text: 'æ•°å­¦è¿ç®—', link: '/examples/math' },
-                { text: 'æ ˆæ“ä½?, link: '/examples/stack' }
+                { text: 'ÊýÑ§ÔËËã', link: '/examples/math' },
+                { text: 'Õ»²Ù×÷', link: '/examples/stack' }
               ]
             },
             {
-              text: 'è¿›é˜¶ç¤ºä¾‹',
+              text: '½ø½×Ê¾Àý',
               collapsed: false,
               items: [
-                { text: 'å¾ªçŽ¯', link: '/examples/loops' },
-                { text: 'æ–æ³¢é‚£å¥‘æ•°åˆ—', link: '/examples/fibonacci' },
-                { text: 'é˜¶ä¹˜', link: '/examples/factorial' },
-                { text: 'å­—ç¬¦ä¸²åè½?, link: '/examples/reverse-string' },
-                { text: 'æ±‚å’Œ', link: '/examples/sum' },
-                { text: 'ä¹˜æ³•è¡?, link: '/examples/multiplication-table' }
+                { text: 'Ñ­»·', link: '/examples/loops' },
+                { text: 'ì³²¨ÄÇÆõÊýÁÐ', link: '/examples/fibonacci' },
+                { text: '½×³Ë', link: '/examples/factorial' },
+                { text: '×Ö·û´®·´×ª', link: '/examples/reverse-string' },
+                { text: 'ÇóºÍ', link: '/examples/sum' },
+                { text: '³Ë·¨±í', link: '/examples/multiplication-table' }
               ]
             },
             {
-              text: 'å…¶ä»–ç¤ºä¾‹',
+              text: 'ÆäËûÊ¾Àý',
               collapsed: false,
               items: [
-                { text: 'å­—ç¬¦æ“ä½œ', link: '/examples/char-operations' }
+                { text: '×Ö·û²Ù×÷', link: '/examples/char-operations' }
               ]
             }
           ]
@@ -382,11 +382,11 @@ export default defineConfig({
           text: 'Q&A',
           collapsed: false,
           items: [
-            { text: 'å¸¸è§é—®é¢˜', link: '/qa/' }
+            { text: '³£¼ûÎÊÌâ', link: '/qa/' }
           ]
         },
         {
-          text: 'æ›´æ–°æ—¥å¿—',
+          text: '¸üÐÂÈÕÖ¾',
           link: '/changelog/'
         }
       ]
@@ -394,20 +394,20 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
-      text: 'åœ?GitHub ä¸Šç¼–è¾‘æ­¤é¡µé¢'
+      text: 'ÔÚ GitHub ÉÏ±à¼­´ËÒ³Ãæ'
     },
 
     docFooter: {
-      prev: 'ä¸Šä¸€é¡?,
-      next: 'ä¸‹ä¸€é¡?
+      prev: 'ÉÏÒ»Ò³',
+      next: 'ÏÂÒ»Ò³'
     },
 
     outline: {
-      label: 'é¡µé¢å¯¼èˆª'
+      label: 'Ò³Ãæµ¼º½'
     },
 
     lastUpdated: {
-      text: 'æœ€åŽæ›´æ–°äºŽ',
+      text: '×îºó¸üÐÂÓÚ',
       formatOptions: {
         dateStyle: 'short',
         timeStyle: 'medium'
@@ -419,8 +419,13 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'MIT Licensed | Copyright Â© 2025-Present',
+      message: 'MIT Licensed | Copyright ? 2025-Present',
       copyright: 'Powered by AI GLM-4.7 | Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a>'
+  },
+  editLink: {
+    pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
+    text: 'ÔÚ GitHub ÉÏ±à¼­´ËÒ³Ãæ'
+  }
     }
   }
 })
