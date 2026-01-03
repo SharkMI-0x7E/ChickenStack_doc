@@ -9,15 +9,15 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '快速开始', link: '/guide/navigation' },
+      { text: '快速开�?, link: '/guide/navigation' },
       { text: '关于', link: '/about/' },
-      { text: '许可证', link: '/license/' }
+      { text: '许可�?, link: '/license/' }
     ],
 
     sidebar: {
       '/guide/': [
         {
-          text: '快速开始',
+          text: '快速开�?,
           collapsed: false,
           items: [
             { text: '页面导航', link: '/guide/navigation' },
@@ -30,8 +30,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '运行方式', link: '/guide/running' },
-            { text: '指令集', link: '/guide/instruction-set' },
-            { text: '栈操作', link: '/guide/stack-operations' },
+            { text: '指令�?, link: '/guide/instruction-set' },
+            { text: '栈操�?, link: '/guide/stack-operations' },
             { text: '语法', link: '/guide/syntax' }
           ]
         },
@@ -40,8 +40,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: '虚拟机 API', link: '/guide/vm-api' },
-            { text: '解析器 API', link: '/guide/parser-api' }
+            { text: '虚拟�?API', link: '/guide/vm-api' },
+            { text: '解析�?API', link: '/guide/parser-api' }
           ]
         },
         {
@@ -54,7 +54,7 @@ export default defineConfig({
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
                 { text: '数学运算', link: '/examples/math' },
-                { text: '栈操作', link: '/examples/stack' }
+                { text: '栈操�?, link: '/examples/stack' }
               ]
             },
             {
@@ -64,9 +64,9 @@ export default defineConfig({
                 { text: '循环', link: '/examples/loops' },
                 { text: '斐波那契数列', link: '/examples/fibonacci' },
                 { text: '阶乘', link: '/examples/factorial' },
-                { text: '字符串反转', link: '/examples/reverse-string' },
+                { text: '字符串反�?, link: '/examples/reverse-string' },
                 { text: '求和', link: '/examples/sum' },
-                { text: '乘法表', link: '/examples/multiplication-table' }
+                { text: '乘法�?, link: '/examples/multiplication-table' }
               ]
             },
             {
@@ -92,7 +92,7 @@ export default defineConfig({
       ],
       '/examples/': [
         {
-          text: '快速开始',
+          text: '快速开�?,
           collapsed: false,
           items: [
             { text: '页面导航', link: '/guide/navigation' },
@@ -105,8 +105,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '运行方式', link: '/guide/running' },
-            { text: '指令集', link: '/guide/instruction-set' },
-            { text: '栈操作', link: '/guide/stack-operations' },
+            { text: '指令�?, link: '/guide/instruction-set' },
+            { text: '栈操�?, link: '/guide/stack-operations' },
             { text: '语法', link: '/guide/syntax' }
           ]
         },
@@ -115,8 +115,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: '虚拟机 API', link: '/guide/vm-api' },
-            { text: '解析器 API', link: '/guide/parser-api' }
+            { text: '虚拟�?API', link: '/guide/vm-api' },
+            { text: '解析�?API', link: '/guide/parser-api' }
           ]
         },
         {
@@ -129,7 +129,7 @@ export default defineConfig({
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
                 { text: '数学运算', link: '/examples/math' },
-                { text: '栈操作', link: '/examples/stack' }
+                { text: '栈操�?, link: '/examples/stack' }
               ]
             },
             {
@@ -139,9 +139,9 @@ export default defineConfig({
                 { text: '循环', link: '/examples/loops' },
                 { text: '斐波那契数列', link: '/examples/fibonacci' },
                 { text: '阶乘', link: '/examples/factorial' },
-                { text: '字符串反转', link: '/examples/reverse-string' },
+                { text: '字符串反�?, link: '/examples/reverse-string' },
                 { text: '求和', link: '/examples/sum' },
-                { text: '乘法表', link: '/examples/multiplication-table' }
+                { text: '乘法�?, link: '/examples/multiplication-table' }
               ]
             },
             {
@@ -167,7 +167,7 @@ export default defineConfig({
       ],
       '/changelog/': [
         {
-          text: '快速开始',
+          text: '快速开�?,
           collapsed: false,
           items: [
             { text: '页面导航', link: '/guide/navigation' },
@@ -180,8 +180,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '运行方式', link: '/guide/running' },
-            { text: '指令集', link: '/guide/instruction-set' },
-            { text: '栈操作', link: '/guide/stack-operations' },
+            { text: '指令�?, link: '/guide/instruction-set' },
+            { text: '栈操�?, link: '/guide/stack-operations' },
             { text: '语法', link: '/guide/syntax' }
           ]
         },
@@ -190,8 +190,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: '虚拟机 API', link: '/guide/vm-api' },
-            { text: '解析器 API', link: '/guide/parser-api' }
+            { text: '虚拟�?API', link: '/guide/vm-api' },
+            { text: '解析�?API', link: '/guide/parser-api' }
           ]
         },
         {
@@ -204,7 +204,7 @@ export default defineConfig({
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
                 { text: '数学运算', link: '/examples/math' },
-                { text: '栈操作', link: '/examples/stack' }
+                { text: '栈操�?, link: '/examples/stack' }
               ]
             },
             {
@@ -214,9 +214,9 @@ export default defineConfig({
                 { text: '循环', link: '/examples/loops' },
                 { text: '斐波那契数列', link: '/examples/fibonacci' },
                 { text: '阶乘', link: '/examples/factorial' },
-                { text: '字符串反转', link: '/examples/reverse-string' },
+                { text: '字符串反�?, link: '/examples/reverse-string' },
                 { text: '求和', link: '/examples/sum' },
-                { text: '乘法表', link: '/examples/multiplication-table' }
+                { text: '乘法�?, link: '/examples/multiplication-table' }
               ]
             },
             {
@@ -242,7 +242,7 @@ export default defineConfig({
       ],
       '/license/': [
         {
-          text: '快速开始',
+          text: '快速开�?,
           collapsed: false,
           items: [
             { text: '页面导航', link: '/guide/navigation' },
@@ -255,8 +255,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '运行方式', link: '/guide/running' },
-            { text: '指令集', link: '/guide/instruction-set' },
-            { text: '栈操作', link: '/guide/stack-operations' },
+            { text: '指令�?, link: '/guide/instruction-set' },
+            { text: '栈操�?, link: '/guide/stack-operations' },
             { text: '语法', link: '/guide/syntax' }
           ]
         },
@@ -265,8 +265,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: '虚拟机 API', link: '/guide/vm-api' },
-            { text: '解析器 API', link: '/guide/parser-api' }
+            { text: '虚拟�?API', link: '/guide/vm-api' },
+            { text: '解析�?API', link: '/guide/parser-api' }
           ]
         },
         {
@@ -279,7 +279,7 @@ export default defineConfig({
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
                 { text: '数学运算', link: '/examples/math' },
-                { text: '栈操作', link: '/examples/stack' }
+                { text: '栈操�?, link: '/examples/stack' }
               ]
             },
             {
@@ -289,9 +289,9 @@ export default defineConfig({
                 { text: '循环', link: '/examples/loops' },
                 { text: '斐波那契数列', link: '/examples/fibonacci' },
                 { text: '阶乘', link: '/examples/factorial' },
-                { text: '字符串反转', link: '/examples/reverse-string' },
+                { text: '字符串反�?, link: '/examples/reverse-string' },
                 { text: '求和', link: '/examples/sum' },
-                { text: '乘法表', link: '/examples/multiplication-table' }
+                { text: '乘法�?, link: '/examples/multiplication-table' }
               ]
             },
             {
@@ -317,7 +317,7 @@ export default defineConfig({
       ],
       '/qa/': [
         {
-          text: '快速开始',
+          text: '快速开�?,
           collapsed: false,
           items: [
             { text: '页面导航', link: '/guide/navigation' },
@@ -330,8 +330,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '运行方式', link: '/guide/running' },
-            { text: '指令集', link: '/guide/instruction-set' },
-            { text: '栈操作', link: '/guide/stack-operations' },
+            { text: '指令�?, link: '/guide/instruction-set' },
+            { text: '栈操�?, link: '/guide/stack-operations' },
             { text: '语法', link: '/guide/syntax' }
           ]
         },
@@ -340,8 +340,8 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: 'Python API', link: '/guide/python-api' },
-            { text: '虚拟机 API', link: '/guide/vm-api' },
-            { text: '解析器 API', link: '/guide/parser-api' }
+            { text: '虚拟�?API', link: '/guide/vm-api' },
+            { text: '解析�?API', link: '/guide/parser-api' }
           ]
         },
         {
@@ -354,7 +354,7 @@ export default defineConfig({
               items: [
                 { text: 'Hello World', link: '/examples/hello-world' },
                 { text: '数学运算', link: '/examples/math' },
-                { text: '栈操作', link: '/examples/stack' }
+                { text: '栈操�?, link: '/examples/stack' }
               ]
             },
             {
@@ -364,9 +364,9 @@ export default defineConfig({
                 { text: '循环', link: '/examples/loops' },
                 { text: '斐波那契数列', link: '/examples/fibonacci' },
                 { text: '阶乘', link: '/examples/factorial' },
-                { text: '字符串反转', link: '/examples/reverse-string' },
+                { text: '字符串反�?, link: '/examples/reverse-string' },
                 { text: '求和', link: '/examples/sum' },
-                { text: '乘法表', link: '/examples/multiplication-table' }
+                { text: '乘法�?, link: '/examples/multiplication-table' }
               ]
             },
             {
@@ -393,13 +393,13 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
+      pattern: 'https://github.com/llz162652/ChickenStack_doc/edit/master/:path',
+      text: '�?GitHub 上编辑此页面'
     },
 
     docFooter: {
-      prev: '上一页',
-      next: '下一页'
+      prev: '上一�?,
+      next: '下一�?
     },
 
     outline: {
