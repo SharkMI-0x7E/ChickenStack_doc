@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 const props = defineProps<{
     title: string,
     link: string,
@@ -12,14 +12,14 @@ const defaultProps = {
 <template>
     <ClientOnly>
         <div class="ncard">
-            <a :href="props.link" :target="props.target || defaultProps.target">
+            <RouterLink :to="props.link">
                 <div class="ncardBody">
                     <div class="card-title">{{ props.title }}</div>
                     <div class="card-text">
                         <slot></slot>
                     </div>
                 </div>
-            </a>
+            </RouterLink>
         </div>
     </ClientOnly>
 </template>
@@ -31,6 +31,7 @@ const defaultProps = {
     margin-bottom: 2em;
     border-radius: 8px;
     transition: all 200ms ease;
+    cursor: pointer;
 }
 
 .ncard:hover {
