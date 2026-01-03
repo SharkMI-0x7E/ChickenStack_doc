@@ -1,0 +1,51 @@
+name: Deploy VitePress site to Pages
+    2
+    3 on:
+    4   push:
+    5     branches: [master]
+    6   workflow_dispatch:
+    7
+    8 permissions:
+    9   contents: read
+   10   pages: write
+   11   id-token: write
+   12
+   13 concurrency:
+   14   group: "pages"
+   15   cancel-in-progress: false
+   16
+   17 jobs:
+   18   build:
+   19     runs-on: ubuntu-latest
+   20     steps:
+   21       - name: Checkout
+   22         uses: actions/checkout@v4
+   23       - name: Setup Node
+   24         uses: actions/setup-node@v4
+   25         with:
+   26           node-version: 20
+   27           cache: npm
+   28           cache-dependency-path: package-lock.json
+   29       - name: Setup pnpm
+   30         uses: pnpm/action-setup@v4
+   31         with:
+   32           version: 10
+   33       - name: Install dependencies
+   34         run: npm install
+   35       - name: Build VitePress
+   36         run: npm run docs:build
+   37       - name: Upload artifact
+   38         uses: actions/upload-pages-artifact@v3
+   39         with:
+   40           path: .vitepress/dist
+   41
+   42   deploy:
+   43     environment:
+   44       name: github-pages
+   45       url: ${{ steps.deployment.outputs.page_url }}
+   46     runs-on: ubuntu-latest
+   47     needs: build
+   48     steps:
+   49       - name: Deploy to GitHub Pages
+   50         id: deployment
+   51         uses: actions/deploy-pages@v4
