@@ -29,11 +29,11 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 10
+          version: 10.15.0
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
       - name: Build VitePress
-        run: npm run docs:build
+        run: pnpm run docs:build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
