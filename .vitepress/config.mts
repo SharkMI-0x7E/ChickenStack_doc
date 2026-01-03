@@ -393,7 +393,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/llz162652/ChickenStack_doc/edit/master/:path',
+      pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
       text: '�?GitHub 上编辑此页面'
     },
 
