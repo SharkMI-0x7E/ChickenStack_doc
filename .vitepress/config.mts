@@ -421,11 +421,12 @@ export default defineConfig({
     footer: {
       message: 'MIT Licensed | Copyright ? 2025-Present',
       copyright: 'Powered by AI GLM-4.7 | Built with <a href="https://vitepress.dev/" target="_blank">VitePress</a>'
-  },
-  editLink: {
-    pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
-    text: '在 GitHub 上编辑此页面'
-  }
+    },
+    editLink: {
+      pattern: 'https://github.com/llz162652/ChickenStack/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
     }
   }
 })
+
+
