@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/ChickenStack_doc/',
   title: 'ChickenStack',
   description: '基于栈的图灵完备编程语言',
   ignoreDeadLinks: true,
