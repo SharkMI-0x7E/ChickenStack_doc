@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'ChickenStack',
   description: '基于栈的图灵完备编程语言',
+  ignoreDeadLinks: true,
   
   themeConfig: {
     nav: [
