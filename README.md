@@ -1,233 +1,112 @@
-<div align="center">
+# ChickenStack 文档系统
 
-# ChickenStack
+ChickenStack 编程语言的官方文档系统，基于 VitePress 构建。
 
-_A Turing Complete Stack-Based Programming Language_
+## 简介
 
-> The depth of the stack is immeasurable, and the beauty of code lies in simplicity.
+这是 ChickenStack 语言的完整文档系统，包含：
 
----
+- 入门指南：快速开始、安装、语法说明
+- API 文档：Python API、解析器 API、虚拟机 API
+- 示例代码：Hello World、阶乘、斐波那契等
+- 参考文档：FAQ、版本信息、许可证
 
-**Read this in other languages: [English](README.md), [中文](README_zh.md).**
+## 特性
 
----
+- 响应式设计，支持桌面、平板、手机
+- 深色模式
+- 全文搜索
+- 支持 Mermaid 图表与 LaTeX 数学公式
 
-![Python Version](https://img.shields.io/badge/Python-3.8+-blue)
-![License](https://img.shields.io/github/license/llz162652/ChickenStack?label=License)
-![Status](https://img.shields.io/badge/Status-Active-green)
-![Contributors](https://img.shields.io/github/contributors/llz162652/ChickenStack.svg?style=flat&label=Contributors)
-![forks](https://img.shields.io/github/forks/llz162652/ChickenStack.svg?style=flat&label=Forks)
-![stars](https://img.shields.io/github/stars/llz162652/ChickenStack?style=flat&label=Stars)
-![issues](https://img.shields.io/github/issues/llz162652/ChickenStack)
+## 快速开始
 
-<div style="text-align: center">
-<strong>
-<a href="#-quick-start">🚀 Quick Start</a> |
-<a href="#-features">✨ Features</a> |
-<a href="#-documentation">📚 Documentation</a> |
-<a href="#-examples">💡 Examples</a> |
-<a href="#-contributing">🤝 Contributing</a>
-</strong>
-</div>
+### 环境要求
 
-</div>
+- Node.js 16.0 或更高版本
+- npm 或 pnpm
 
----
-
-## 🎉 Introduction
-
-**🐔 ChickenStack is a simple, elegant, and powerful stack-based programming language using Reverse Polish Notation (RPN) syntax.**
-
-- 💭 **Minimalism**: Only 8 basic instructions, each with clear semantics
-- 💭 **Stack-Based Thinking**: All operations are performed on the stack, following functional programming principles
-- 🧠 **Educational Value**: Perfect for learning about stack data structures, compiler principles, and programming language design
-- 🤔 **Turing Complete**: Supports mathematical operations, loops, logic judgments, and can compute any computable function
-- 🔌 **Python API**: Provides Python API for easy integration into Python projects
-- 💝 **Cross-Platform**: Supports Windows, Linux, macOS and other mainstream operating systems
-
-## 🔥 Quick Start
-
-### Installation
+### 安装依赖
 
 ```bash
-git clone https://github.com/llz162652/ChickenStack.git
-cd ChickenStack
-pip install -r requirements.txt
+npm install
 ```
 
-### Hello World
-
-Create `hello_world.ch` file:
-
-```ch
-72 " 101 " 108 " 108 " 111 " 32 " 87 " 111 " 114 " 108 " 100 " 10 "
-```
-
-Run:
+或使用 pnpm：
 
 ```bash
-python main.py hello_world.ch
+pnpm install
 ```
 
-Output:
+### 启动开发服务器
 
-```
-Hello World
-```
-
-### Advanced Example: Fibonacci Sequence
-
-```ch
-0 1 10 [ dup + swap dup 1 - swap 1 - ]
+```bash
+npm run docs:dev
 ```
 
-## ✨ Features
+访问 http://localhost:5173 查看文档。
 
-### Why ChickenStack?
+### 构建与预览
 
-Because this "chicken" (Chicken) will "peck" (Peck) data on the stack, just as simple and natural as pecking rice!
-
-### Core Features
-
-- **Easy to Use**
-  - Easy for beginners to use, more human-friendly than Brainfuck
-  - Intuitive syntax with a gentle learning curve
-
-- **Turing Complete**
-  - Supports mathematical operations, loops, logic judgments, etc.
-  - Theoretically capable of writing any program
-
-- **Cross Platform**
-  - Supports Windows, Linux, macOS and other mainstream operating systems
-  - Pure Python implementation, no compilation required, plug and play
-
-- **Rich API**
-  - Provides Python API for easy integration into Python projects
-  - Supports custom IO Handler, highly extensible
-
-- **Extensible**
-  - Supports custom instructions and IO Handler to meet various needs
-  - Can be easily integrated into existing projects
-
-- **Stable and Reliable**
-  - Continuous stable development and maintenance
-  - Comprehensive test coverage, ensuring code quality
-
-## 📚 Documentation
-
-**For first-time users**, please check the [complete documentation](https://llz162652.github.io/ChickenStack_doc/)
-
-- [Quick Start](https://llz162652.github.io/ChickenStack_doc/guide/installation.html)
-- [Instruction Set](https://llz162652.github.io/ChickenStack_doc/guide/instruction-set.html)
-- [Syntax](https://llz162652.github.io/ChickenStack_doc/guide/syntax.html)
-- [Python API](https://llz162652.github.io/ChickenStack_doc/guide/python-api.html)
-- [VM API](https://llz162652.github.io/ChickenStack_doc/guide/vm-api.html)
-
-## 💡 Examples
-
-Check the `examples/` directory for more example code, including:
-
-### Basic Examples
-- [Hello World](https://llz162652.github.io/ChickenStack_doc/examples/hello-world.html)
-- [Math Operations](https://llz162652.github.io/ChickenStack_doc/examples/math.html)
-- [Stack Operations](https://llz162652.github.io/ChickenStack_doc/examples/stack.html)
-
-### Advanced Examples
-- [Loops](https://llz162652.github.io/ChickenStack_doc/examples/loops.html)
-- [Fibonacci Sequence](https://llz162652.github.io/ChickenStack_doc/examples/fibonacci.html)
-- [Factorial](https://llz162652.github.io/ChickenStack_doc/examples/factorial.html)
-- [String Reverse](https://llz162652.github.io/ChickenStack_doc/examples/reverse-string.html)
-- [Sum](https://llz162652.github.io/ChickenStack_doc/examples/sum.html)
-- [Multiplication Table](https://llz162652.github.io/ChickenStack_doc/examples/multiplication-table.html)
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────┐
-│         ChickenStack Source (.ch)         │
-└─────────────┬───────────────────────────┘
-              │
-              ▼
-┌─────────────────────────────────────────┐
-│           Parser (Parser)                │
-│   Lexical Analysis → Syntax Analysis → Token Generation
-└─────────────┬───────────────────────────┘
-              │
-              ▼
-┌─────────────────────────────────────────┐
-│         Virtual Machine (VM)             │
-│   Stack Management → Instruction Execution → IO Processing
-└─────────────┬───────────────────────────┘
-              │
-              ▼
-┌─────────────────────────────────────────┐
-│         Output (Output Result)           │
-└─────────────────────────────────────────┘
+```bash
+npm run docs:build
+npm run docs:preview
 ```
 
-## 🗺️ Roadmap
+## 目录结构
 
-- [x] Basic instruction set implementation
-- [x] Python API wrapper
-- [x] Complete documentation system
-- [x] Performance optimization (38.63% improvement)
-- [ ] JIT compilation optimization
-- [ ] Web version interpreter
-- [ ] More language bindings (JavaScript, Go)
-- [ ] IDE plugin support
-- [ ] Online code editor
+`ChickenStack_doc/` 即文档站根目录（现已移回主仓库）：
 
-## 🔗 Links
+```
+ChickenStack_doc/
+├── .vitepress/     # VitePress 配置（config.mts、自定义主题）
+├── guide/          # 入门指南（介绍、安装、语法、指令集、API 等）
+├── examples/       # 示例代码说明
+├── license/        # 许可证文档
+├── manual/         # 手册
+├── qa/             # 常见问题
+├── changelog/      # 更新日志
+├── public/         # 静态资源（图片、图标等）
+├── about.md        # 关于
+├── index.md        # 首页
+├── package.json    # 依赖配置
+└── README.md       # 本文件
+```
 
-- **📚 Documentation**: [Full Documentation](https://llz162652.github.io/ChickenStack_doc/)
-- **🔧 Repository**: [GitHub Repository](https://github.com/llz162652/ChickenStack)
-- **💡 Examples**: [Example Code](https://github.com/llz162652/ChickenStack/tree/main/examples)
-- **🧪 Tests**: [Test Cases](https://github.com/llz162652/ChickenStack/tree/main/tests)
+## 技术栈
 
-## 🤝 Contributing
+- VitePress：基于 Vue 3 的静态站点生成器
+- Vue 3：渐进式 JavaScript 框架
+- Mermaid：图表和可视化工具
+- Markdown：文档格式
 
-Contributions are welcome! Please check [CONTRIBUTING.md](https://llz162652.github.io/ChickenStack_doc/) to learn how to participate in development.
+## 编写文档
 
-### Contributors
+所有文档使用 Markdown 格式，支持代码高亮、Mermaid 图表、数学公式与自定义组件。
 
-Thanks to all the contributors!
+```python
+from chicken_stack import ChickenStackVM
 
-<a href="https://github.com/llz162652/ChickenStack/graphs/contributors">
-  <img alt="contributors" src="https://contrib.rocks/image?repo=llz162652/ChickenStack" />
-</a>
+vm = ChickenStackVM()
+vm.push(10)
+vm.push(20)
+vm.op_add()
+vm.op_print_num()  # 输出: 30
+```
 
-## 🙏 Acknowledgments
+## 配置说明
 
-- [Brainfuck](https://en.wikipedia.org/wiki/Brainfuck) Inspiration source, showing the charm of minimalist programming languages
-- [VitePress](https://vitepress.dev/) Provided excellent documentation building tools
-- [MaiBot](https://github.com/MaiM-with-u/MaiBot) Documentation design inspiration
-- [Python](https://www.python.org/) Powerful programming language that made ChickenStack possible
+配置文件位于 `.vitepress/config.mts`，可修改站点标题与描述、导航栏、侧边栏、主题与插件配置。
 
-**Also thanks to every user who has provided valuable opinions and suggestions for the development of ChickenStack, and thank you for accompanying ChickenStack to where it is today!**
+## 相关链接
 
-## 📌 Notice
+- 主仓库：https://github.com/SharkMI-0x7E/ChickenStack
+- 在线文档：https://SharkMI-0x7E.github.io/ChickenStack_doc/
+- 问题反馈：https://github.com/SharkMI-0x7E/ChickenStack/issues
 
-> [!WARNING]
-> This repository is for learning and research purposes only. Please comply with local laws and regulations when using it. The user is responsible for any problems caused by its use.
+## 贡献
 
-## 📊 Repository Status
+欢迎在主仓库提交 Issue 与 Pull Request。
 
-![Alt](https://repobeats.axiom.co/api/embed/9faca9fccfc467931b87dd357b60c6362b5cfae0.svg "ChickenStack Repository Status")
+## 许可证
 
-### Star History
-
-[![Star History](https://starchart.cc/llz162652/ChickenStack.svg?variant=adaptive)](https://starchart.cc/llz162652/ChickenStack)
-
-## 📄 License
-
-This project is open sourced under [MIT License](./LICENSE).
-
----
-
-<div align="center">
-
-**Made with ❤️ by llz162652**
-
-**If you find it useful, please give a ⭐ Star to support us!**
-
-</div>
+MIT License - 详见 [LICENSE](../LICENSE) 文件

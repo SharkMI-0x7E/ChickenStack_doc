@@ -1,51 +1,33 @@
-# Python 编译文件
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.pyd
+# 依赖
+node_modules/
 
-# Python 包文件
-*.egg
-*.egg-info/
+# 构建输出
 dist/
-build/
-*.whl
+.vitepress/dist/
+.vitepress/cache/
 
-# 虚拟环境
-venv/
-env/
-ENV/
-.venv
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# IDE 配置
+# 编辑器
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # 系统文件
 .DS_Store
 Thumbs.db
-desktop.ini
 
 # 临时文件
-*.zip
-*.tar.gz
-*.rar
+*.tmp
+*.temp
+*.backup
+config_backup.mts
 
-# 不相关的子目录
-maibotdoc/
-NO上传VitePress/
-doc/
-docs/
-
-# 测试覆盖率
-.coverage
-htmlcov/
-.pytest_cache/
-
-# 文档构建
-doc/.vitepress/cache/
-doc/.vitepress/dist/
+# 历史归档包（2026-01 的旧站打包，83MB，不入库）
+docs.zip
